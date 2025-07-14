@@ -1,0 +1,31 @@
+title: Veny Language Blog
+description: Object-oriented design, domain modeling, and the Veny language
+theme: minimal-mistakes-jekyll
+url: "https://venylang.dev"
+baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Author for posts
+author:
+  name: Veny Team
+  url: https://venylang.dev
+
+# Optional, but good for SEO and sharing
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author: Veny Team
+      read_time: true
+      comments: false
+      share: true
+      related: true

@@ -1,0 +1,21 @@
+---
+layout: home
+title: Veny Blog
+permalink: /blog/
+---
+
+# 📝 Veny Blog
+
+Welcome to the official blog of the Veny Language. Here we explore object-oriented methodology, language design, domain modeling, and Veny's role in the OO ecosystem.
+
+---
+
+{% for post in site.posts %}
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>🗓️ {{ post.date | date: "%Y-%m-%d" }}</p>
+<p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+<p><a href="{{ post.url }}">Read more →</a></p>
+{% endfor %}
+
+
+---
