@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://venylang.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://venylang.dev/" rel="alternate" type="text/html" /><updated>2025-07-15T10:25:08+00:00</updated><id>https://venylang.dev/feed.xml</id><title type="html">Veny Language Blog</title><subtitle>Object-oriented design, domain modeling, and the Veny language</subtitle><author><name>Veny Team</name></author><entry><title type="html">Welcome to Veny: A Language for Object-Oriented Modeling</title><link href="https://venylang.dev/2025/07/14/welcome-to-veny.html" rel="alternate" type="text/html" title="Welcome to Veny: A Language for Object-Oriented Modeling" /><published>2025-07-14T00:00:00+00:00</published><updated>2025-07-14T00:00:00+00:00</updated><id>https://venylang.dev/2025/07/14/welcome-to-veny</id><content type="html" xml:base="https://venylang.dev/2025/07/14/welcome-to-veny.html"><![CDATA[<blockquote>
+  <p><em>“Model before you code. Invert state. Own behavior.”</em></p>
+</blockquote>
+
+<p>Welcome to the Veny blog — where we explore object-oriented methodology, domain modeling, and the design of a new language built around these core ideas.</p>
+
+<p>Veny is not just another general-purpose language with object-oriented features bolted on. It is designed from the ground up to treat objects as <strong>modeling units</strong>, where state is local, behavior is owned, and communication happens via messaging.</p>
+
+<hr />
+
+<h2 id="why-veny">Why Veny?</h2>
+
+<p>Modern programming languages often blur paradigms. They mix procedural, functional, and object-oriented constructs into a single toolkit. While this can be convenient, it also creates confusion about <em>how</em> to model software, especially as systems grow in complexity.</p>
+
+<p>Veny takes a different stance:</p>
+
+<ul>
+  <li><strong>Objects own their state</strong> (no accidental globals)</li>
+  <li><strong>Behavior is explicit</strong> (via message passing)</li>
+  <li><strong>Modeling comes first</strong> (code follows domain structure)</li>
+</ul>
+
+<p>We call this architectural shift <strong>Inversion of State</strong> (IoS) — where global state is broken into encapsulated local state, manipulated only through well-defined object interactions. Similar to how <em>Inversion of Control</em> reshaped frameworks, <em>Inversion of State</em> reshapes how we think about structure and change in codebases.</p>
+
+<hr />
+
+<h2 id="whats-coming-next">What’s Coming Next</h2>
+
+<p>This blog will be home to:</p>
+
+<ul>
+  <li>Object-oriented methodology topics</li>
+  <li>Examples of real-world modeling in Veny</li>
+  <li>Language design discussions</li>
+  <li>Comparisons with other OO languages (Smalltalk, Eiffel, Scala, etc.)</li>
+  <li>Announcements and roadmap updates</li>
+</ul>
+
+<p>If you believe that software should be modeled like the real world — with <strong>responsibility</strong>, <strong>encapsulation</strong>, and <strong>communication</strong> — we invite you to follow along, contribute, and help shape the future of Veny.</p>
+
+<hr />
+
+<p>🧭 <strong>Explore More</strong></p>
+<ul>
+  <li><a href="https://www.venylang.org/manifesto">Veny Manifesto</a></li>
+  <li><a href="https://www.venylang.org/language-spec">Language Spec</a></li>
+  <li><a href="https://github.com/veny-lang/compiler-core/tree/main/examples">Example Code</a></li>
+</ul>
+
+<hr />
+
+<p>Thanks for joining us on this journey. More posts coming soon!</p>]]></content><author><name>Veny Team</name></author><category term="veny" /><category term="object-oriented" /><category term="language design" /><category term="blog" /><summary type="html"><![CDATA[Introducing Veny — a pure OO language for modeling real-world domains.]]></summary></entry></feed>
