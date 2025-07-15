@@ -17,6 +17,6 @@ Whether you're building software systems, teaching OO principles, or exploring m
 - 💡 Inspired by Smalltalk, Java, Kotlin, and Go
 - 🧠 Designed for learning, tooling, and production use
 
-[Read the Veny Manifesto →](/manifesto)  
-[See the Language Specification →](/language-spec)  
+[Read the Veny Manifesto →](https://veny-lang.github.io/manifesto)  
+[See the Language Specification →](https://veny-lang.github.io/language-spec)  
 [Get Started on GitHub →](https://github.com/veny-lang/veny)
