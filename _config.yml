@@ -1,6 +1,5 @@
 title: Veny Language Blog
 description: Object-oriented design, domain modeling, and the Veny language
-theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 url: "https://venylang.dev"
 baseurl: ""
